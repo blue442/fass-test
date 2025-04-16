@@ -19,7 +19,7 @@ Follow these steps to set up and test the PostgreSQL database:
       DB_PASSWORD=your_database_password
       ```  
     - Ensure the `.env` file is included in your `.gitignore` file to prevent it from being committed to version control.  
-    - The `initialize_database.py` script and `test_database.ipynb` notebook will automatically load these credentials using a library like `python-dotenv`.
+    - The `initialize_database.py` script and `test_database.ipynb` notebook will automatically load these credentials using the `python-dotenv` library.
 
 3. **Initialize the Database**  
     Use the `initialize_database.py` script to set up the database schema and populate it with any necessary initial data:  
